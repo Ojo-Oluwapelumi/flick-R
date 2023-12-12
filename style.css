@@ -1,0 +1,1463 @@
+/*------------ Landing Page Start -------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 992px) {
+#first {
+  position: relative;
+}}
+
+@media screen and (min-width: 992px) {
+#nav {
+  position: absolute;
+  width: 100vw;
+  z-index: 100%;
+  background-color: #0000006b;
+  
+}}
+
+@media screen and (min-width: 992px) {
+#dots {
+  width: 6em;
+  transform: translateX(1em);
+  /* z-index: 100%; */
+}
+}
+
+@media screen and (min-width: 992px) {
+#but{
+opacity: 80%;
+}
+#login {
+  transform: translate(-2em, 0%);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #ffffff;
+  text-decoration: none;
+}}
+
+@media screen and (min-width: 992px) {
+#signup {
+  width: 6em;
+  height: 2em;
+  margin-top: 1%;
+  margin-right: 5ex;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5%;
+
+ padding-top: 5px;
+}}
+
+@media screen and (min-width: 992px) {
+#example {
+  width: 100vw;
+  height: 100vh;
+}}
+
+@media screen and (min-width: 992px) {
+#find {
+  position: absolute;
+  transform: translateY(-450px);
+  margin-left: 33vw;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #ffffff;
+}}
+
+@media screen and (min-width: 992px) {
+#find2 {
+  position: absolute;
+  transform: translateY(-370px);
+  margin-left: 30vw;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+}}
+
+@media screen and (min-width: 992px) {
+class{
+  display: flex;
+  justify-content: center;
+}}
+
+@media screen and (min-width: 992px) {
+#start {
+  position: absolute;
+  transform: translateY(-270px);
+  margin-left: 42vw;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 64px;
+  color: black;
+  padding-left: 20px;
+  text-align: center;
+  width: 190px;
+  height: 60px;
+  border-radius: 0%;
+}}
+
+
+#start:hover{
+  color:#898989;
+}
+@media screen and (min-width: 992px) {
+button{
+  display: flex;
+  justify-content: center;
+
+}}
+
+@media screen and (min-width: 992px) {
+#flu {
+  position: absolute;
+  background-color: #000000;
+  width: 1377px;
+  height: 75px;
+  margin-top:-75px;
+  /* transform: translateY(-60px); */
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  row-gap: 1em;
+}}
+
+@media screen and (min-width: 992px) {
+#fluid {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 1;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+
+}}
+
+@media screen and (min-width: 992px) {
+#but {
+  width: 800px;
+  height: 30px;
+  transform: translateX(-150px);
+  margin-top: 13px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  
+}}
+@media screen and (min-width: 992px) {
+#smallwords{
+  position: absolute;
+  transform: translateY(-300px);
+}}
+/* .................... media query ...........................................................*/
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #first {
+    position: relative;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #nav {
+    position: absolute;
+    width: 100vw;
+    z-index: 100%;
+    background-color: black;
+    opacity: 80%;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #dots {
+    width: 6em;
+    opacity: 100% !important;
+    transform: translateX(1em);
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #login {
+    transform: translate(-2em, 0%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #signup {
+    width: 6em;
+    height: 2em;
+    margin-top: 1%;
+    margin-right: 5ex;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5%;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #example {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #find {
+    position: absolute;
+    transform: translateY(-650px);
+    margin-left: 130px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #find2 {
+    position: absolute;
+    transform: translateY(-570px);
+    margin-left: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #start {
+    position: absolute;
+    transform: translateY(-470px);
+    margin-left: 270px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #flu {
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    height: 130px;
+    margin: auto;
+    transform: translateY(-130px);
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    row-gap: 1em;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #fluid {
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 2ex;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #but {
+    display: none
+ 
+  }
+}
+/* small screen/////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 475px) {
+  #first {
+    position: relative;
+  }
+}
+@media screen and (max-width: 475px) {
+  #nav {
+    position: absolute;
+    width: 100vw;
+    z-index: 100%;
+    background-color: black;
+    opacity: 80%;
+  }
+}
+@media screen and (max-width: 475px) {
+  #dots {
+    width: 6em;
+    opacity: 100% !important;
+    transform: translateX(1em);
+  }
+}
+@media screen and (max-width: 475px) {
+  #login {
+    transform: translate(-2em, 0%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 475px) {
+  #signup {
+    width: 6em;
+    height: 2em;
+    margin-top: 1%;
+    margin-right: 5ex;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5%;
+  }
+}
+@media screen and (max-width: 475px) {
+  #example {
+    width: 100vw;
+    height: 100vh;
+    
+  }
+}
+
+@media screen and (max-width: 475px) {
+  #find {
+    position: absolute;
+    transform: translateY(-500px);
+    margin-left: 10px;
+   text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 56px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 475px) {
+  #find2 {
+    display: none;
+    position: absolute;
+    transform: translateY(-570px);
+    margin-left: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 475px) {
+  #start {
+    position: absolute;
+    transform: translateY(-370px);
+    margin-left: 90px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 475px) {
+  #flu {
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    height: 700px;
+    margin: auto;
+    /* transform: translateY(-233px); */
+    
+    text-decoration: none;
+    row-gap: 1em;
+  }
+}
+@media screen and (max-width: 475px) {
+  #fluid {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    margin-left: 15px;
+    margin-top: 2ex;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    display: flex;
+    
+    /* column-gap: ; */
+  }
+}
+@media screen and (max-width: 475px) {
+  #but {
+    display: none
+ 
+  }
+}
+
+/*------------ Landing Page End -------------*/
+
+/*-------------- Log In Start ---------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 992px) {
+#navlog{
+  position: absolute;
+  width: 100vw;
+  height: 3em;
+  z-index: 100%;
+  background-color: #212124;
+}}
+@media screen and (min-width: 992px) {
+
+#dotslog{
+  width: 6em;
+  transform: translateX(-70em);
+
+}}
+@media screen and (min-width: 992px) {
+#signlog {
+  background-size: contain;
+position: absolute;
+}}
+@media screen and (min-width: 992px) {
+
+#examplelog {
+  width: 100vw;
+  height: 100vh;
+position: relative;
+ 
+}}
+
+@media screen and (min-width: 992px) {
+#formlog {
+  position:absolute;
+  height: 19em;
+ margin-left: 30em;
+  transform: translateY(11em);
+  background-color: #ffffff;
+}}
+@media screen and (min-width: 992px) {
+#notlog{
+  margin-left: 15%;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+}}
+@media screen and (min-width: 992px) {
+#nottlog{
+  
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}}
+@media screen and (min-width: 992px) {
+#plog{
+  transform: translateY(2em);
+  margin-left: 30%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}}
+@media screen and (min-width: 992px) {
+#inputlog {
+  color: black;
+  width: 85%;
+  height: 20%;
+  margin-left: 7%;
+  margin-top: 20%;
+}}
+@media screen and (min-width: 992px) {
+
+#nextlog {
+  color: black;
+  width: 85%;
+  height: 13%;
+  margin-left: 7%;
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+
+}}
+@media screen and (min-width: 992px) {
+#footlog{
+  width: 100vw;
+  height: 7vh;
+  transform: translateY(16em);
+}}
+@media screen and (min-width: 992px) {
+#helplog{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+
+ 
+}}
+@media screen and (min-width: 992px) {
+#helps1log{
+ margin-left: 12em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#helps2log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#helps3log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   margin-right: 1em;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#numlog{
+  transform: translate(35em, 5em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 9em;
+}}
+@media screen and (min-width: 992px) {
+#buttonlog{
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 992px) {
+#englog{
+  
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 992px) {
+#logolog{
+  margin-top: -45em;
+  margin-left: 42%;
+  width: 3em;
+}}
+
+/* ...........................small screen .......................................
+*/
+
+/* ...........................small screen .......................................
+*/
+/* ...........................small screen .......................................
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 475px) {
+#navlog{
+  position: absolute;
+  width: 100vw;
+  height: 3em;
+  z-index: 100%;
+  background-color: #212124;
+}}
+@media screen and (max-width: 475px) {
+#dotslog{
+  width: 50px;
+  transform: translateX(-15em);
+
+}}
+@media screen and (max-width: 475px) {
+#signlog {
+  background-size: contain;
+position: absolute;
+}}
+
+@media screen and (max-width: 475px) {
+#examplelog {
+  width: 100vw;
+  height: 100vh;
+position: relative;
+ 
+}}
+
+@media screen and (max-width: 475px) {
+#formlog {
+  position:absolute;
+width: 280px;
+ margin-left: 20px;
+  margin-top: 100px;
+  background-color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#notlog{
+  margin-left: 15%;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+}}
+@media screen and (max-width: 475px) {
+#nottlog{
+  
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}}
+@media screen and (max-width: 475px) {
+#plog{
+  transform: translateY(2em);
+  margin-left: 30%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}}
+@media screen and (max-width: 475px) {
+#inputlog {
+  color: black;
+  width: 85%;
+  height: 20%;
+  margin-left: 7%;
+  margin-top: 20%;
+}}
+@media screen and (max-width: 475px) {
+#nextlog {
+  color: black;
+  width: 85%;
+  height: 13%;
+  margin-left: 7%;
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+
+}}
+@media screen and (max-width: 475px) {
+#footlog{
+  width: 100vw;
+  height: 7vh;
+  transform: translateY(16em);
+}}
+@media screen and (max-width: 475px) {
+#helplog{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-left:-20px;
+
+ 
+}}
+@media screen and (max-width: 475px) {
+#helps1log{
+ margin-left: 10em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (max-width: 475px) {
+#helps2log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (max-width: 475px) {
+#helps3log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   margin-right: 1em;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (max-width: 475px) {
+#numlog{
+  display: none;
+  transform: translate(35em, 5em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 9em;
+}}
+@media screen and (max-width: 475px) {
+#buttonlog{
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#englog{
+  
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#logolog{
+  margin-top: -650px;
+  margin-left: 42%;
+  width: 3em;
+}}
+
+/* ................................ medium screen .................................... */
+/* ................................ medium screen .................................... */
+/* ................................ medium screen .................................... */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#navlog{
+  position: absolute;
+  width: 100vw;
+  height: 3em;
+  z-index: 100%;
+  background-color: #212124;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#dotslog{
+  width: 6em;
+  transform: translateX(-35em);
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#signlog {
+  background-size: contain;
+position: absolute;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#examplelog {
+  width: 100vw;
+  height: 100vh;
+position: relative;
+ 
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#formlog {
+  position:absolute;
+  width: 500px;
+  height: 450px;
+ margin-left: 130px;
+  transform: translateY(400px);
+  background-color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#notlog{
+  margin-left: 15%;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+}}@media screen and (min-width: 475px) and (max-width: 1180px) {
+#nottlog{
+  
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#plog{
+  transform: translateY(70px);
+  margin-left: 30%;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+input {
+  color: black;
+  width: 85% !important;
+  height: 20%;
+  margin-left: 33px !important;
+  margin-top: 100px !important;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#nextlog {
+  color: black;
+  width: 85%;
+  height: 13%;
+  margin-left: 7%;
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#footlog{
+  width: 100vw;
+  height: 7vh;
+  transform: translateY(16em);
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helplog{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+
+ 
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps1log{
+ margin-left: 12em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps2log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps3log{
+  margin-left: 1em;
+   text-decoration: none;
+   color: #ffffff;
+   margin-right: 1em;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#numlog{
+  transform: translate(3em, 50px);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 9em;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#buttonlog{
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#englog{
+  
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#logolog{
+  margin-top: -870px;
+  margin-left: 42%;
+  width: 60px;
+}}
+/* sign up//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 992px) {
+
+#navsign {
+  position: absolute;
+  width: 100vw;
+  height: 3em;
+  z-index: 100%;
+  position: fixed;
+  background-color: #212124;
+}}
+@media screen and (min-width: 992px) {
+#dotssign {
+  width: 6em;
+  transform: translateX(-70em);
+}}
+@media screen and (min-width: 992px) {
+#signsign {
+  background-size: cover;
+  position: absolute;
+}}
+@media screen and (min-width: 992px) {
+#examplesign {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+}}
+
+@media screen and (min-width: 992px) {
+#formsign {
+  width: 350px ;
+  position: absolute;
+  height: 720px;
+  margin-left: 500px;
+  transform: translateY(70px);
+  background-color: #ffffff;
+ 
+}}
+@media screen and (min-width: 992px) {
+#screen{
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 20px;
+}}
+@media screen and (min-width: 992px) {
+#notsign {
+  margin-left: -1em;
+  margin-bottom: 2em;
+  transform: translateY(1em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #898989;
+  text-align: center;
+}}
+@media screen and (min-width: 992px) {
+#nottsign {
+  transform: translateY(10em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}}
+@media screen and (min-width: 992px) {
+#ntsign {
+  margin-left: 15%;
+  margin-top: -1em;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+}}
+@media screen and (min-width: 992px) {
+#notesign {
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #006dac;
+  text-decoration: none;
+}
+}
+@media screen and (min-width: 992px) {
+#psign {
+  transform: translateY(2em);
+  margin-left: 30%;
+  margin-bottom: 3em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}}
+@media screen and (min-width: 992px) {
+#floatingInput {
+  color: black;
+  width: 100%;
+  /* height: 10%; */
+  margin-top: 2%;
+}}
+@media screen and (min-width: 992px) {
+#nextsign {
+  color: black;
+  width: 85%;
+  height: 5ex;
+  margin-left: 7%;
+  margin-top: 30%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+}
+}
+@media screen and (min-width: 992px) {
+#helpsign {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}}
+@media screen and (min-width: 992px) {
+#helps1sign {
+  margin-left: 12em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#helps2sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#helps3sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 992px) {
+#numsign {
+  margin-top: 15px;
+transform: translateX(570px);
+  z-index: 100%;
+  position: absolute;
+  /* position: fixed; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #a7a7a7;
+}}
+@media screen and (min-width: 992px) {
+#buttonsign {
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 992px) {
+#engsign {
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+/* ........................medium screen..................................... */
+/* ........................medium screen..................................... */
+/* ........................medium screen..................................... */
+
+@media screen and (min-width: 475px) and (max-width: 1180px)
+{#navsign {
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  z-index: 100%;
+  position: fixed;
+  background-color: #212124;
+  display: flex;
+  justify-content: center;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#dotssign {
+  width: 6em;
+  transform: translateX(-30em);
+}
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#signsign {
+  background-size: cover;
+  position: absolute;
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#examplesign {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#formsign {
+  position: absolute;
+  margin-left: 230px;
+  width: 340px;
+  height: 720px;
+  margin-top: 160px;
+  background-color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+  #screen{
+      position: absolute;
+      margin-left: 160px;
+      margin-top: 20px;
+  }}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#notsign {
+  margin-left: -1em;
+  margin-bottom: 2em;
+  transform: translateY(1em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #898989;
+  text-align: center;
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#nottsign {
+  transform: translateY(10em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#ntsign {
+  margin-left: 15%;
+  margin-top: -1em;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+ }}
+ @media screen and (min-width: 475px) and (max-width: 1180px) {
+#notesign {
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #006dac;
+  text-decoration: none;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#psign {
+  transform: translateY(2em);
+  margin-left: 30%;
+  margin-bottom: 3em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#inputsign {
+  color: black;
+  width: 85%;
+  height: 4em;
+  margin-left: 7%;
+  margin-top: 2%;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#nextsign {
+  color: black;
+  width: 85%;
+  height: 5ex;
+  margin-left: 7%;
+  margin-top: 30%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helpsign {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps1sign {
+  margin-left: 12em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps2sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#helps3sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#numsign {
+  transform: translate(200px, 40px);
+  z-index: 100%;
+  position: absolute;
+  /* position: fixed; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+}}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#buttonsign {
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}
+}
+@media screen and (min-width: 475px) and (max-width: 1180px) {
+#engsign {
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
+/* ......................media query for small screen................. *//* ......................media query for small screen................. */
+/* ......................media query for small screen................. */
+
+@media screen and (max-width: 475px)
+{#navsign {
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  z-index: 100%;
+  position: fixed;
+  background-color: #212124;
+  display: flex;
+  justify-content: center;
+}}
+@media screen and (max-width: 475px) {
+#dotssign {
+  width: 6em;
+  transform: translateX(-15em);
+}
+}
+@media screen and (max-width: 475px) {
+#signsign {
+  background-size: cover;
+  position: absolute;
+}}
+
+@media screen and (max-width: 475px) {
+#examplesign {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+}}
+
+@media screen and (max-width: 475px) {
+#formsign {
+  position: absolute;
+  margin-left: 50px;
+  width: 80vw;
+  height: 680px;
+  margin-top: 70px;
+  background-color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#screen{
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 20px;
+}}
+@media screen and (max-width: 475px) {
+#notsign {
+  margin-left: -1em;
+  margin-bottom: 2em;
+  transform: translateY(1em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #898989;
+  text-align: center;
+}}
+
+@media screen and (max-width: 475px) {
+#nottsign {
+  transform: translateY(10em);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}}
+@media screen and (max-width: 475px) {
+#ntsign {
+  margin-left: 15%;
+  margin-top: -1em;
+  transform: translateY(1em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #212124;
+  text-decoration: none;
+ }}
+ @media screen and (max-width: 475px) {
+#notesign {
+  transform: translateY(10em);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #006dac;
+  text-decoration: none;
+}}
+@media screen and (max-width: 475px){
+#psign {
+  transform: translateY(2em);
+  margin-left: 30%;
+  margin-bottom: 3em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #212124;
+}
+}
+@media screen and (max-width: 475px) {
+#inputsign {
+  color: black;
+  width: 85%;
+  height: 4em;
+  margin-left: 7%;
+  margin-top: 2%;
+}}
+@media screen and (max-width: 475px) {
+#nextsign {
+  color: black;
+  width: 85%;
+  height: 5ex;
+  margin-left: 7%;
+  margin-top: 30%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#helpsign {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}}
+@media screen and (max-width: 475px) {
+#helps1sign {
+  margin-left: 12em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+
+@media screen and (max-width: 475px) {
+#helps2sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+
+@media screen and (max-width: 475px){
+#helps3sign {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}}
+@media screen and (max-width: 475px) {
+#numsign {
+  display: none;
+  transform: translate(0px, 80px);
+  z-index: 100%;
+  position: absolute;
+  /* position: fixed; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+}}
+@media screen and (max-width: 475px) {
+#buttonsign {
+  margin-top: -7ex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}
+}
+@media screen and (max-width: 475px) {
+#engsign {
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}}
